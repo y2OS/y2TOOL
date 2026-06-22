@@ -28,11 +28,11 @@ For more information, visit https://github.com/y2OS/ypm
 ### `setup-ypm.sh`
 ypm supports non-y2OS distributions. Please note that this is experimental and there is no guarantee that it will work on every system.
 
-To run the script:
-1 - Download it
-2 - Navigate to the directory where the file is located
-3 - Grant execution permission with the command `chmod +x setup-ypm.sh`
-4 - Run it with the command `sudo ./setup-ypm.sh`
+- To run the script:
+  - Download it
+  - Navigate to the directory where the file is located
+  - Grant execution permission with the command `chmod +x setup-ypm.sh`
+  - Run it with the command `sudo ./setup-ypm.sh`
 
 For more information, visit https://github.com/y2OS/ypm
 
