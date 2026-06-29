@@ -36,8 +36,13 @@ ypm supports non-y2OS distributions. Please note that this is experimental and t
 
 For more information, visit https://github.com/y2OS/ypm
 
+### `ydisk`
+A `dialog`-based TUI storage utility designed for disk partitioning, formatting, and ISO image flashing.
+- **Features:** Automated sysfs-based kernel hardware discovery (SCSI/SATA/NVMe), non-removable disk safety gates, multi-filesystem formatting (`ext2/3/4`, `fat32`, `exfat`) via `sfdisk`, and robust non-blocking ISO flashing using `pv` and `dd` with strict process exit code validation.
+- **Dependencies:** `dialog`, `pv`, `dd`, `sfdisk`, and native filesystem tools (`mkfs.ext*`, `mkfs.vfat`, `mkfs.exfat`).
+
 ---
 
 ## License
 
-This repository is licensed under the *pache License 2.0*.
+This repository is licensed under the Apache License 2.0
